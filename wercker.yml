@@ -2,7 +2,7 @@ box: wercker/default
 build:
     steps:
         - shellcheck
-
+#test
         - script:
             name: config
             code: |
