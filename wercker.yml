@@ -2,11 +2,10 @@ box: wercker/default
 build:
     steps:
         - shellcheck
-#test
         - script:
             name: config
             code: |
-                GCLOUD_VERSION="170.0.1-linux-x86_64"
+                export GCLOUD_VERSION="170.0.1-linux-x86_64"
                 export GCLOUD_DIRNAME="google-cloud-sdk"
                 export GCLOUD_SHA="a09ff738ea9b3c9af906ee42e8ded48b84388574944d11406ba0cec6b2acdc89"
                 export GCLOUD_FILENAME="${GCLOUD_DIRNAME}-${GCLOUD_VERSION}.tar.gz"
