@@ -1,6 +1,6 @@
 name: kubectl
-version: 3.1.9
-description: Step to run kubectl, with support for GKE clusters.
+version: 3.2.0
+description: Step to run kubectl, with support for GKE clusters. cloud sdk version is 170.0.1
 keywords:
   - kubernetes
   - kubectl
